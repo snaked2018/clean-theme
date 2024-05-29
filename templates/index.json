@@ -1,5 +1,10 @@
 {
   "sections": {
+    "main_announcement_6TrcKy": {
+      "type": "main-announcement",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-index",
       "settings": {
@@ -7,6 +12,7 @@
     }
   },
   "order": [
+    "main_announcement_6TrcKy",
     "main"
   ]
 }
