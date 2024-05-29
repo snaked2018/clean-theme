@@ -1,5 +1,10 @@
 {
   "sections": {
+    "main_announcement_eBiVdj": {
+      "type": "main-announcement",
+      "settings": {
+      }
+    },
     "main_announcement_6TrcKy": {
       "type": "main-announcement",
       "settings": {
@@ -12,6 +17,7 @@
     }
   },
   "order": [
+    "main_announcement_eBiVdj",
     "main_announcement_6TrcKy",
     "main"
   ]
