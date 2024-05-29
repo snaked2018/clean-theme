@@ -1,12 +1,12 @@
 {
   "sections": {
     "main": {
-      "type": "home",
+      "type": "Main Index",
       "settings": {
       }
     } 
   },
   "order": [
-    "main"
+    "Main Index"
   ]
 }
