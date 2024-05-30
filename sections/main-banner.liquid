@@ -1,0 +1,47 @@
+
+
+<div class="bg-blue-600 text-white">
+  <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center">
+        <span class="text-xl font-bold">{{ section.settings.announcement_text }}</span>
+      </div>
+      <div>
+        <a href="{{ section.settings.announcement_link }}" class="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-gray-100">
+          {{ section.settings.link_text }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Main Banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "Announcement Text",
+      "default": "Big Sale! Up to 50% off on all items"
+    },
+    {
+      "type": "url",
+      "id": "announcement_link",
+      "label": "Announcement Link"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "Shop Now"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Main Banner"
+    }
+  ]
+}
+{% endschema %}

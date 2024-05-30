@@ -1,18 +1,18 @@
 {
   "sections": {
-    "main_announcement_6TrcKy": {
+    "main_announcement": {
       "type": "main-announcement",
       "settings": {
       }
     },
-    "main": {
-      "type": "main-index",
+    "main-banner": {
+      "type": "main-banner",
       "settings": {
       }
     }
   },
   "order": [
-    "main_announcement_6TrcKy",
-    "main"
+    "main_announcement",
+    "main-banner"
   ]
 }
