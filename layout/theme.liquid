@@ -10,5 +10,7 @@
   <body>
     {{ 'output.css' | asset_url | stylesheet_tag }}
     {{ content_for_layout }}
+
+    {% render 'header' %}
   </body>
 </html>
