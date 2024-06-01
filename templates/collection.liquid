@@ -4,9 +4,11 @@
 
 {% for product in collections['frontpage'].products %}
   <div>
-    <h3>{{ product.title }}</h3>
-    <p>{{ product.price }}</p>
-    <img src="{{ product.featured_image |  image_url: width: '500x' }}" alt="">
+    <a href="{{ product.url }}">
+      <img src="{{ product.featured_image |  image_url: width: '500x' }}" alt="{{ product.title }}">
+      <h3>{{ product.title }}</h3>
+      <p>{{ product.price | money }}</p>
+    </a>
   </div>
   {{- product.title | link_to: product.url }}
 {% endfor %}
