@@ -2,12 +2,17 @@
   "sections": {
     "main_announcement": {
       "type": "main-announcement",
+      "disabled": true,
       "settings": {
       }
     },
     "main-banner": {
       "type": "main-banner",
+      "disabled": true,
       "settings": {
+        "announcement_text": "Big Sale! Up to 50% off on all items",
+        "announcement_link": "",
+        "link_text": "Shop Now"
       }
     }
   },
